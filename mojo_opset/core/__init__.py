@@ -38,6 +38,7 @@ from .operators.kv_cache import MojoStorePagedMLAKVCache
 from .operators.linear import MojoAllGatherLinear
 from .operators.linear import MojoBatchLinear
 from .operators.linear import MojoGroupLinear
+from .operators.linear import MojoRoutedLinear
 from .operators.linear import MojoLinear
 from .operators.linear import MojoLinearAll2All
 from .operators.linear import MojoLinearAllReduce
@@ -120,6 +121,7 @@ __all__ = [
     "MojoLinear",
     "MojoBatchLinear",
     "MojoGroupLinear",
+    "MojoRoutedLinear",
     "MojoLinearAllReduce",
     "MojoLinearAll2All",
     "MojoAllGatherLinear",
